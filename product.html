@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>product</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background: #444;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: #fff;
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+
+        .navbar {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .navbar li {
+            margin-left: 20px;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+
+        .navbar a:hover {
+            background: #333;
+        }
+    </style>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <div class="logo">Rideking</div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar" class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index1.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about us.html">about us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./product.html">products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        /* #product-grid {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            } */
+
+        /* #product-card {
+                width: 30%;
+                margin-bottom: 20px;
+                background-color: #e7e7e7;
+                border-radius: 10px;
+                padding: 20px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                text-align: center;
+            } */
+
+        #product-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        #product-card h3 {
+            margin: 10px 0;
+            color: #333;
+        }
+
+        #product-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .buy-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .buy-button:hover {
+            background-color: #218838;
+        }
+    </style>
+    <div class="container">
+        <h1>Our Products</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 16rem;">
+                    <div id="product-card" class="card-body">
+                        <img src="images/img3.jfif" alt="Car Model 1">
+                        <h3>lamborghini</h3>
+                        <p>Price: $10,000</p>
+                        <p>Description: A reliable and stylish car perfect for city driving. It features a
+                            fuel-efficient
+                            engine, modern design, and a comfortable interior.</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 16rem;">
+                    <div id="product-card" class="card-body">
+                        <img src="images/img10.jfif" alt="Car Model 2">
+                        <h3>audi</h3>
+                        <p>Price: $15,000</p>
+                        <p>Description: A spacious family car with top-notch safety features. It offers ample
+                            seating, a
+                            smooth ride, and advanced safety systems to keep your loved ones protected.</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 16rem;">
+                    <div id="product-card" class="card-body">
+                        <img src="images/img9.jfif" alt="Car Model 3">
+                        <h3>Buggati</h3>
+                        <p>Price: $20,000</p>
+                        <p>Description: A luxury car that blends performance with comfort. Equipped with the latest
+                            technology, premium materials, and a powerful engine, it ensures a first-class driving
+                            experience.</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 16rem;">
+                    <div id="product-card" class="card-body">
+                        <img src="images/img8.jfif" alt="Car Model 4">
+                        <h3>porsche</h3>
+                        <p>Price: $25,000</p>
+                        <p>Description: A sporty car that delivers an exhilarating performance. With its aerodynamic
+                            design,
+                            powerful engine, and responsive handling, it's built for thrill-seekers.</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 16rem;">
+                    <div id="product-card" class="card-body">
+                        <img src="images/img9.jfif" alt="Car Model 5">
+                        <h3>Tesla</h3>
+                        <p>Price: $30,000</p>
+                        <p>Description: An electric car that combines sustainability with innovation. It features a
+                            long-range battery, zero emissions, and cutting-edge technology for an eco-friendly
+                            drive.
+                        </p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 16rem;">
+                    <div id="product-card" class="card-body">
+                        <img src="images/img7.jfif" alt="Car Model 6">
+                        <h3>Mercedes G wagon</h3>
+                        <p>Price: $35,000</p>
+                        <p>Description: A premium SUV designed for adventure. It offers a robust build, spacious
+                            interior,
+                            and advanced off-road capabilities to tackle any terrain with ease.</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
